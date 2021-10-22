@@ -1,16 +1,22 @@
 <template>
   <div id="app">
-    <Prueba/>
+    <!-- <Prueba/> -->
+    <!-- <Contacto/> -->
+    <Login/>
   </div>
 </template>
 
 <script>
-import Prueba from './components/Prueba'
+//import Prueba from './components/Prueba'
+// import Contacto from './components/Contacto'
+import Login from './components/Login'
 
 export default {
   name: 'App',
   components: {
-    Prueba
+    //Prueba,
+    //Contacto
+    Login
   }
 }
 </script>
